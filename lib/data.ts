@@ -90,7 +90,7 @@ export const projectsData = [
     description:
       "Свежий сайт портфолио на React (приложение Next.js, Framer Motion, TypeScript, Tailwind CSS)",
     name: "Сайт Портфолио",
-    url: "#",
+    url: "https://portfoliowebsite-self.vercel.app",
     tags: ["React", "Next.js", "TypeScript", "Tailwind"],
     imageUrl: mysecondsite,
   },

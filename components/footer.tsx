@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Footer() {
+  const name = process.env.NEXT_PUBLIC_NAME;
+
   return (
     <footer className="mb-10 px-4 text-center text-gray-500">
       <small className="mb-2 block text-xs">
@@ -10,6 +12,7 @@ export default function Footer() {
         <span className="font-semibold">Об этом веб-сайте:</span> создан с
         помощью React и Next.js (App Router & Server Actions), TypeScript,
         Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting.
+        {name}
       </p>
     </footer>
   );
