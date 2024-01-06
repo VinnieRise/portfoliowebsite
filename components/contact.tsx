@@ -32,7 +32,7 @@ export default function Contact() {
       <SectionHeading>Свяжитесь со мной</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Пожалуйста, свяжитесь со мной напрямую по адресу{" "}
-        <a className="underline">riseofvini@gmail.com</a> или через эту форму.
+        <a className="underline">vinnierise@gmail.com</a> или через эту форму.
       </p>
 
       <form
